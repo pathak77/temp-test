@@ -2,9 +2,9 @@ import React from 'react'
 
 const HeroSection = () => {
   return (
-    <div>
-      
-    </div>
+    <h1>
+        THis is a vue app;
+    </h1>
   )
 }
 
