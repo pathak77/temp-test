@@ -12,8 +12,7 @@ function App() {
 
   return (
     <>
-     <h1 className='text-2xl text-indigo-500'> this is vite </h1>
-      <  GlassmorphNavbar/>
+      <  HeroSection/>
     </>
   )
 }
