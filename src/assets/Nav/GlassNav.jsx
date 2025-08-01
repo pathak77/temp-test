@@ -12,7 +12,7 @@ export default function GlassmorphNavbar() {
   };
 
   return (
-    <nav className="fixed h-[53px] left-1/2 top-0 z-50 mt-7 flex w-11/12 max-w-7xl -translate-x-1/2 flex-col items-center rounded-full bg-background/20 p-3 backdrop-blur-lg md:rounded-full">
+    <nav className="bg-green-500 fixed h-[53px] left-1/2 top-0 z-50 mt-7 flex w-11/12 max-w-7xl -translate-x-1/2 flex-col items-center rounded-full bg-background/20 p-3 backdrop-blur-lg md:rounded-full">
       <div className="flex w-full items-center justify-between">
         <h1 className="text-xl text-white align-center"> A3THER</h1>
 
@@ -35,6 +35,7 @@ export default function GlassmorphNavbar() {
           >
             <SearchIcon />
           </div>
+          <AlignLeft />
         </div>
       </div>
     </nav>

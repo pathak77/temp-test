@@ -35,7 +35,7 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <h1 className="absolute translate-x-[510px] translate-y-[320px] text-[56px] font-semibold">
+        <h1 className="absolute translate-x-[510px] translate-y-[300px] text-[56px] font-semibold">
           AETHER
         </h1>
       </div>
