@@ -1,8 +1,9 @@
 import { LayoutGrid, Menu, Search } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import SearchIcon from "../../components/SearchIcon/SearchIcon";
+import SearchIcon from "../../assets/icons/SearchIcon";
 import SearchBar from "../../components/SearchBar/SearchBar";
+import Hamburger from "../../assets/icons/hamburger";
 
 export default function GlassmorphNavbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,9 +13,19 @@ export default function GlassmorphNavbar() {
   };
 
   return (
-    <nav className="bg-green-500 fixed h-[53px] left-1/2 top-0 z-50 mt-7 flex w-11/12 max-w-7xl -translate-x-1/2 flex-col items-center rounded-full bg-background/20 p-3 backdrop-blur-lg md:rounded-full">
+    <nav className="fixed h-[53px] left-1/2 top-0 z-50 mt-7 flex w-11/12 max-w-7xl -translate-x-1/2 flex-col items-center rounded-full bg-background/20 p-3 backdrop-blur-lg md:rounded-full">
       <div className="flex w-full items-center justify-between">
-        <h1 className="text-xl text-white align-center"> A3THER</h1>
+        {/* hamburger menu  */}
+        <div className="mx-3">
+          <Hamburger />
+        </div>
+
+        {/* TITLE */}
+        <div>
+          <h1 className="text-xl text-white align-center justify-center">
+            A3THER
+          </h1>
+        </div>
 
         {/* search bar and Icon */}
 
@@ -35,7 +46,6 @@ export default function GlassmorphNavbar() {
           >
             <SearchIcon />
           </div>
-          <AlignLeft />
         </div>
       </div>
     </nav>

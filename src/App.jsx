@@ -13,6 +13,8 @@ function App() {
 
   return (
     <>
+    <GlassmorphNavbar/>
+    <HeroSection/>
       <Items/>
     </>
   )

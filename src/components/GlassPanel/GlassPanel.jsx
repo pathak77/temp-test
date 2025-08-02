@@ -1,6 +1,7 @@
 import React from "react";
 import DeleteIcon from "../../assets/icons/DeleteIcon";
 
+
 const GlassPanel = ({ header = "", text = "", visible = false, onClose  }) => {
   return (
     <div
